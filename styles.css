@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-image {
+  background-image: url('images/telecom.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

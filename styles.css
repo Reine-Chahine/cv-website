@@ -53,3 +53,17 @@ header h1 {
 header p {
   font-size: 1.1em;
 }
+.social-link {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.1em;
+}
+
+.social-link i {
+  margin-right: 5px;
+}
+
+.social-link:hover {
+  color: #005582;
+}
